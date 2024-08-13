@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiJavascript, SiRedux, SiNodedotjs } from "react-icons/si";
 import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
-
+import photo from "../../assets/photo.jpg"
 const Header = () => {
     const { ref, inView } = useInView({
         threshold: 0.1,
@@ -81,7 +81,7 @@ const Header = () => {
 
                             <div className="w-full ml-auto md:w-1/2">
                                 <animated.img
-                                    src="src/assets/photo.jpg"
+                                    src={photo}
                                     className="w-full ml-auto h-[550px] object-cover max-[768px]:h-auto shadow-xl shadow-black"
                                     alt="Front view"
                                     style={imageSlideInStyles}

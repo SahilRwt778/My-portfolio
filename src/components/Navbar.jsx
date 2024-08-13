@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#262626]  h-[80px] p-4 sticky top-0 z-50 transition-colors opacity-95 duration-300  shadow-sm   ">
+    <nav className="bg-[#262626]  h-[80px] p-4 sticky top-0 z-50 transition-colors opacity-95 duration-300  shadow-sm  ` ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center text-black text-xl font-bold">
           <h1 className='text-[2rem] text-red-600 max-[768px]:text-[1.5rem]'>SAHIL RAWAT</h1>

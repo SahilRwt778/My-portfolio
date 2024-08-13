@@ -2,11 +2,13 @@ import React from "react";
 import { FaGithub, FaInternetExplorer } from "react-icons/fa";
 import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
-
+import ss43 from '../../assets/ss43.png'
+import ss42 from '../../assets/ss42.png'
+import ss44 from '../../assets/ss44.png'
 const cardData = [
     {
         id: 1,
-        imgsrc: 'src/assets/Screenshot (43).png',
+        imgsrc: ss43,
         title: 'Weather Website',
         des: 'To create this project I used React.JS and API from the openweathermap.org which provides the data related to the current weather of a city that we’ll search.',
         icon1: FaGithub,
@@ -16,7 +18,7 @@ const cardData = [
     },
     {
         id: 2,
-        imgsrc: 'src/assets/Screenshot (42).png',
+        imgsrc: ss42,
         title: 'World-Seed',
         des: 'A website to educate people about the different kinds of seeds from planting to harvesting.',
         icon1: FaGithub,
@@ -26,7 +28,7 @@ const cardData = [
     },
     {
         id: 3,
-        imgsrc: 'src/assets/Screenshot (44).png',
+        imgsrc: ss44,
         title: 'Corona Live tracker',
         des: 'A site built to track the cases of the corona (COVID-19) virus.',
         icon1: FaGithub,
