@@ -7,13 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-<<<<<<< HEAD
     "preview": "vite preview"
     
-=======
-    "preview": "vite preview",
-    "start": "node src/backend/server.js"
->>>>>>> d6bf959ae1e47c23c3e1774f79efc79f75d8a928
+
   },
   "dependencies": {
     "@react-spring/web": "^9.7.4",
