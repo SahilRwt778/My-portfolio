@@ -93,15 +93,15 @@ const Contact = () => {
 
     return (
         <>
-            <section id="contact" className="mx-[4rem] max-[768px]:mx-14 my-8">
+            <section id="contact" className=" my-8 items-center content-center">
                 <div className="text-center mt-[2rem] mb-8">
                     <h2 className="text-red-600">--Contact--</h2>
                     <h1 className="text-white text-[2rem]">Contact Me</h1>
                 </div>
-                <div className="mx-14 max-[768px]:mx-2">
-                    <div className="flex flex-wrap">
-                        <animated.div style={leftSpring} ref={leftRef} className="contact-left ml-10 -mt-6 max-[768px]:mx-0 mx-16">
-                            <img src={MyImage} className='h-[300px] max-[768px]:w-[300px]' alt="Profile" />
+                
+                    <div className="flex flex-wrap mx-16  items-center content-center ">
+                        <animated.div style={leftSpring} ref={leftRef} className="sm:w-1/2 md:w-1/3 lg:w-1/4">
+                            <img src={MyImage} className='h-[300px] max-[768px]:w-auto' alt="Profile" />
                             <h2 className="text-white text-[2rem]">Sahil Rawat</h2>
                             <h4 className="text-white text-[1rem]">Full Stack Developer | Software Engineer</h4>
                             <p className="mt-[30px] text-white flex"><SiGmail className="text-blue-500 text-[25px] mr-3" /> sahilrawatjj@gmail.com</p>
@@ -114,7 +114,7 @@ const Contact = () => {
                             </div>
                             <a href="src/assets/resume.pdf" download className="inline-block bg-red-600 p-3 rounded-lg transition-all ease-in-out hover:-translate-y-2 duration-500 hover:shadow-lg hover:shadow-red-600">Download Resume</a>
                         </animated.div>
-                        <animated.div style={rightSpring} ref={rightRef} className="contact-right max-[768px]:mx-0 mx-8 max-[768px]:-mx-5">
+                        <animated.div style={rightSpring} ref={rightRef} className=" items-center content-center max-[768px]:-mx-6 sm:w-3/4 md:w-3/4 lg:w-3/4 ">
                             <form onSubmit={handleSubmit} className="w-auto">
                                 <input className="w-full focus:outline-none max-[706px]:w-[300px] focus:border-blue-500 outline-none bg-[#262626] p-2 my-4 text-white text-[18px] border-black border rounded-lg" type="text" name="name" placeholder="Your name" required />
                                 <input className="w-full focus:outline-none max-[706px]:w-[300px] focus:border-blue-500 outline-none bg-[#262626] p-2 my-4 text-white text-[18px] border-black border rounded-lg" type="email" name="email" placeholder="Your Email" required />
@@ -133,7 +133,7 @@ const Contact = () => {
                             )}
                         </animated.div>
                     </div>
-                </div>
+                
             </section>
         </>
     );
