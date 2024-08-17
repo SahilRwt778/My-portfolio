@@ -64,8 +64,8 @@ const Header = () => {
                                     <div className="social-links max-[768px]:my-4">
                                         <h1 className="text-white text-center mb-4 text-xl max-[768px]:text-left">Social Links</h1>
                                         <div className="flex">
-                                            <a href="https://www.linkedin.com/in/sahil-rawat-9385a1245/"><FaLinkedinIn className="text-white text-[35px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg hover:-translate-y-2 transition-all ease-in-out duration-500 hover:bg-red-600" /></a>                                        
-                                            <a href="https://github.com/SahilRwt778"><FaGithub className="text-white text-[35px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg hover:-translate-y-2 transition-all ease-in-out duration-500 hover:bg-red-600"/></a>
+                                            <a href="https://www.linkedin.com/in/sahil-rawat-9385a1245/"><FaLinkedinIn className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg hover:-translate-y-2 transition-all ease-in-out duration-500 hover:bg-red-600" /></a>                                        
+                                            <a href="https://github.com/SahilRwt778"><FaGithub className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg hover:-translate-y-2 transition-all ease-in-out duration-500 hover:bg-red-600"/></a>
                                         </div>
                                     </div>
                                     <div className="best-skills ml-0 md:ml-8 max-[768px]:text-center max-[768px]:my-8">
