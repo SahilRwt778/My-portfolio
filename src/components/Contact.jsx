@@ -27,7 +27,7 @@ const Contact = () => {
 
     const rightSpring = useSpring({
         opacity: rightInView ? 1 : 0,
-        transform: rightInView ? "translateX(0)" : "translateX(50px)",
+        transform: rightInView ? "scale(1)" : "scale(0.9)",
         config: { duration: 1000 },
         delay: 400,
     });
