@@ -7,6 +7,7 @@ import ss42 from '../../assets/ss42.png'
 import ss44 from '../../assets/ss44.png'
 import greenRaven from '../../assets/greenraven.png'
 import nextZen from '../../assets/next.png'
+import dash from '../../assets/dash.png'
 const cardData = [
     {
         id: 1,
@@ -60,6 +61,16 @@ const cardData = [
         link2:'#'
         
 
+    },
+    {
+        id:6,
+        imgsrc: dash,
+        title: "Weather DashBoard",
+        des: "Developed a responsive Weather Dashboard using React, TypeScript, and Tailwind CSS, integrating the Open-Meteo API for real-time and historical weather data.",
+        icon1: FaGithub,
+        icon2: FaInternetExplorer,
+        link:"https://lattice-task-weather-dashboard.netlify.app/",
+        link2:'#'
     }
 
 ];
