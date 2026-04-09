@@ -70,7 +70,7 @@ const cardData = [
         icon1: FaGithub,
         icon2: FaInternetExplorer,
         link:"https://lattice-task-weather-dashboard.netlify.app/",
-        link2:'#'
+        link2:'https://github.com/SahilRwt778/weather-dashboard'
     }
 
 ];
