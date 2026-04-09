@@ -8,12 +8,13 @@ import Project from './components/Projects/Project.jsx'
 import MyResume from './components/Resume/MyResume.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-
+import {Toaster} from 'react-hot-toast'
 
 function App() {
 
   return (
     <>
+    <Toaster/>
       <Navbar/>
       <Header/>
       <Feature/>

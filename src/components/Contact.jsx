@@ -7,6 +7,7 @@ import { ImCheckboxChecked } from "react-icons/im";
 import { VscError } from "react-icons/vsc";
 import MyImage from '../assets/my-image.jpg'
 import Resume from '../assets/resume.pdf'
+import toast from 'react-hot-toast'
 const Contact = () => {
     const { ref: leftRef, inView: leftInView } = useInView({
         threshold: 0.1,
@@ -41,56 +42,25 @@ const Contact = () => {
         return re.test(String(email).toLowerCase());
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
 
-        const formData = {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            message: e.target.message.value,
-        };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "e766a156-c0da-4d45-8d48-3219550ca406");
 
-        if (!validateEmail(formData.email)) {
-            setError('Please enter a valid email address.');
-            return;
-        }
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
 
-        setError(''); // Clear any previous errors
-
-        try {
-            const response = await fetch('http://localhost:5000/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            if (response.ok) {
-                setFormStatus('success');
-                setShowPopup(true);
-                e.target.reset(); // Reset the form
-
-                setTimeout(() => {
-                    setShowPopup(false); // Hide popup after 3 seconds
-                }, 3000);
-            } else {
-                setFormStatus('error');
-                setShowPopup(true);
-                setTimeout(() => {
-                    setShowPopup(false);
-                }, 3000);
-                console.error('Error submitting form');
-            }
-        } catch (error) {
-            setFormStatus('error');
-            setShowPopup(true);
-            setTimeout(() => {
-                setShowPopup(false);
-            }, 3000);
-            console.error('Error:', error);
-        }
-    };
+    const data = await response.json();
+    if (data.success) {
+      toast.success("form Submitted.")
+      event.target.reset();
+    } else {
+      toast.error("something went wrong")
+    }
+  };
 
     const bg={
         backgroundColor:"#dc2626"

@@ -17,13 +17,13 @@ const Experience = () => {
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
             title="Data Structure & Algorithms"
-            subTitle="2024 - Present"
+            subTitle="2024 "
             result="Btech"
             des=" "
           />
           <ResumeCard
             title="Operating System"
-            subTitle="2024 - Present"
+            subTitle="2024 "
             result="Btech"
             des=" "
           />
@@ -46,6 +46,13 @@ const Experience = () => {
             subTitle="Udemy (Nov,2023 - Present)"
             result="Online"
             des=" "
+          />
+
+            <ResumeCard
+            title="MERN Stack development"
+            subTitle="QSpider (August,2025 - Present)"
+            result=""
+            des=" Worked on MERN technologies like MongoDB, Express.Js, React.JS, Node.Js, Redux."
           />
         </div>
       </div>

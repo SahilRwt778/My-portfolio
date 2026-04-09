@@ -4,7 +4,8 @@ import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiJavascript, SiRedux, SiNodedotjs } from "react-icons/si";
 import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
-import photo from "../../assets/photo.jpg";
+import photo from '../../assets/image.png'
+import { FaJava } from "react-icons/fa";
 
 const Header = () => {
     const { ref, inView } = useInView({
@@ -56,8 +57,8 @@ const Header = () => {
                                     />
                                 </h2>
                                 <p className="text-base md:text-lg lg:text-[16px] font-sans text-white mt-4">
-                                    My name is Sahil Rawat, and I'm pursuing a Btech degree in Computer Science and Engineering.
-                                    I'm a proficient Full Stack Developer with React JS and have a strong understanding of Data Structures and Algorithms.
+                                    My name is Sahil Rawat and
+                                    I'm a proficient Full Stack Developer with MongoDb, Express.Js, React JS, Node.Js and have a strong understanding of Data Structures and Algorithms.
                                 </p>
 
                                 <div className="flex flex-wrap mt-10">
@@ -75,15 +76,16 @@ const Header = () => {
                                             <SiJavascript className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg" />
                                             <SiNodedotjs className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg" />
                                             <SiRedux className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg" />
+                                            <FaJava className="text-white text-[30px] md:text-[40px] lg:text-[50px] bg-black rounded-lg p-2 mx-2 md:mx-4 shadow-lg"/>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+                            <div className="w-full lg:w-1/2 mt-8 lg:mt-0 rotate-y-180">
                                 <animated.img
                                     src={photo}
-                                    className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover shadow-xl shadow-black"
+                                    className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-contain bg-black rounded-xl  shadow-xl shadow-black"
                                     alt="Front view"
                                     style={imageSlideInStyles}
                                 />

@@ -12,7 +12,7 @@ const Education = () => {
       {/* part one */}
       <div className='className="mt-14 w-auto flex flex-col gap-6 mx-8 text-white'> 
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2016 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -47,16 +47,22 @@ const Education = () => {
 
       <div className='className="mt-14 mx-8 w-auto flex flex-col gap-6'>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - Present</p>
+          <p className="text-sm text-designColor tracking-[4px]">2026 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white">Internship</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
            
           <ResumeCard
             title="React - The Complete Guide 2024 (incl. Next.js, Redux)"
-            subTitle="Udemy- (Nov,2023 - Present)"
+            subTitle="Udemy- (Nov,2023)"
             result=""
             des=" Worked on different technologies like HTML, CSS, JavaScript, React JS, Redux."
+          />
+          <ResumeCard
+            title="MERN Stack development"
+            subTitle="QSpider (August,2025 - Present)"
+            result=""
+            des=" Worked on MERN technologies like MongoDB, Express.Js, React.JS, Node.Js, Redux."
           />
         </div>
       </div>

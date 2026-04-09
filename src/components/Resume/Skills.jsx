@@ -22,9 +22,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[55%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">55%</span>
+                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
@@ -35,9 +35,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>
@@ -48,9 +48,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[95%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">95%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>
@@ -61,9 +61,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[85%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">85%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>
@@ -74,9 +74,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
@@ -98,9 +98,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
@@ -111,9 +111,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span> 
           </div>
@@ -124,9 +124,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">60%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>
@@ -138,9 +138,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[90%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
@@ -151,9 +151,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[60%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
+                className="w-[100%] h-full bg-gradient-to-r from-red-600 via-sky-500 to-blue-800 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">60%</span>
+                <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span>
           </div>

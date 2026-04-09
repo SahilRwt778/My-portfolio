@@ -5,6 +5,8 @@ import { useInView } from 'react-intersection-observer';
 import ss43 from '../../assets/ss43.png'
 import ss42 from '../../assets/ss42.png'
 import ss44 from '../../assets/ss44.png'
+import greenRaven from '../../assets/greenraven.png'
+import nextZen from '../../assets/next.png'
 const cardData = [
     {
         id: 1,
@@ -36,6 +38,30 @@ const cardData = [
         link: 'https://corona-live-tracker-by-sahil.netlify.app',
         link2:'https://github.com/SahilRwt778/React-apps'
     },
+    {
+        id:4,
+        imgsrc:greenRaven,
+        title: "Green Raven",
+        des: "GreenRaven supports the energy production industry as a central hub — specializing in residential solar, commercial solar, geothermal systems, generators, and advanced power solutions.",
+        icon1: FaGithub,
+        icon2: FaInternetExplorer,
+        link: 'https://gogreenraven.com',
+        link2:'https://github.com/SahilRwt778/greenraven'
+
+    },
+    {
+        id:5,
+        imgsrc: nextZen,
+        title: "Next-Zen-Tech",
+        des: "Portfolio website for a services base company dummy-project.",
+        icon1: FaGithub,
+        icon2: FaInternetExplorer,
+        link:"https://next-zen-tech.netlify.app/",
+        link2:'#'
+        
+
+    }
+
 ];
 
 const Project = () => {
@@ -72,19 +98,19 @@ const Project = () => {
                             >
                                 <div className="my-2 mx-2">
                                     <img
-                                        src={card.imgsrc}
-                                        alt={card.title}
+                                        src={card?.imgsrc}
+                                        alt={card?.title}
                                         className="w-full rounded-lg group-hover:scale-110 transition-all ease-in-out duration-500"
                                     />
                                 </div>
                                 <div className="flex items-center my-2">
-                                    <h2 className="text-lg font-semibold mb-2 text-blue-600">{card.title}</h2>
+                                    <h2 className="text-lg font-semibold mb-2 text-blue-600">{card?.title}</h2>
                                     <div className="flex text-white">
-                                        <a href={card.link2}><card.icon1 className="bg-gray-700 text-[40px] mx-2 p-2 rounded-lg hover:-translate-y-2 transition-all ease-in-out duration-500" /></a>
-                                        <a href={card.link}><card.icon2 className="bg-blue-500 text-[40px] mx-2 p-2 rounded-lg hover:-translate-y-2 transition-all ease-in-out duration-500" /></a>
+                                        <a href={card?.link2}><card.icon1 className="bg-gray-700 text-[40px] mx-2 p-2 rounded-lg hover:-translate-y-2 transition-all ease-in-out duration-500" /></a>
+                                        <a href={card?.link}><card.icon2 className="bg-blue-500 text-[40px] mx-2 p-2 rounded-lg hover:-translate-y-2 transition-all ease-in-out duration-500" /></a>
                                     </div>
                                 </div>
-                                <p className="mb-4 text-center text-white">{card.des}</p>
+                                <p className="mb-4 text-center text-white">{card?.des}</p>
                             </animated.div>
                         );
                     })}
