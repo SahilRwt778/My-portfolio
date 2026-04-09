@@ -23,7 +23,7 @@ const Footer = () => {
                     <div>
                         <h1 className="text-blue-500 text-2xl font-bold">Sahil Rawat</h1>
                         <p className="text-[14px] my-4">
-                            I'm Sahil Rawat, pursuing a Btech degree in Computer Science and Engineering.
+                            I'm Sahil Rawat,
                             I'm a proficient Full Stack Developer with React JS and have a strong understanding of Data Structures and Algorithms.
                         </p>
                         <div className="flex space-x-4 mt-4">
@@ -61,10 +61,25 @@ const Footer = () => {
 
                     <div>
                         <h1 className="text-xl font-bold">Contact Me</h1>
-                        <p className="mt-4">
-                            Kashipur, Uttarakhand 24....<br />
-                            <b>Phone:</b> +(91)7454945875<br />
-                            <b>Email:</b> sahilrawatjj@gmail.com
+                        <p className="mt-4 text-gray-300 leading-7">
+                            Delhi <br />
+
+                            <b>Phone:</b>{" "}
+                            <a
+                                href="tel:+91754767898"
+                                className="hover:text-sky-500 transition"
+                            >
+                                +91 7454945875
+                            </a>
+                            <br />
+
+                            <b>Email:</b>{" "}
+                            <a
+                                href="mailto:sahilrawatjj@gmail.com"
+                                className="hover:text-sky-500 transition"
+                            >
+                                sahilrawatjj@gmail.com
+                            </a>
                         </p>
                     </div>
                 </div>

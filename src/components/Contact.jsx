@@ -79,8 +79,18 @@ const Contact = () => {
                         <img src={MyImage} className="h-[300px] w-auto rounded-lg shadow-lg mb-4" alt="Profile" />
                         <h2 className="text-white text-[2rem]">Sahil Rawat</h2>
                         <h4 className="text-white text-[1rem]">Full Stack Developer | Software Engineer</h4>
-                        <p className="mt-6 text-white flex items-center"><SiGmail className="text-blue-500 text-[25px] mr-3" /> sahilrawatjj@gmail.com</p>
-                        <p className="mt-6 text-white flex items-center"><FaPhoneAlt className="text-blue-500 text-[25px] mr-3" /> (+91) 7454945875</p>
+                        <p className="mt-6 text-white flex items-center"><SiGmail className="text-blue-500 text-[25px] mr-3" /> <a
+                                href="mailto:sahilrawatjj@gmail.com"
+                                className="hover:text-sky-500 transition"
+                            >
+                                sahilrawatjj@gmail.com
+                            </a></p>
+                        <p className="mt-6 text-white flex items-center"><FaPhoneAlt className="text-blue-500 text-[25px] mr-3" /> <a
+                                href="tel:+91754767898"
+                                className="hover:text-sky-500 transition"
+                            >
+                                +91 7454945875
+                            </a></p>
                         <div className="social-icons flex justify-center md:justify-start mt-6">
                             <a href="https://www.facebook.com/sahil.rawat.18294053" className="text-[30px] mr-3 my-2 text-[#ababab] inline-block transition-all ease-in-out duration-500 hover:text-blue-400 hover:-translate-y-2"><FaFacebook /></a>
                             <a href="https://www.x.com/@SahilRawat778" className="text-[30px] mx-3 my-2 text-[#ababab] inline-block transition-all ease-in-out duration-500 hover:text-blue-400 hover:-translate-y-2"><FaTwitter /></a>
